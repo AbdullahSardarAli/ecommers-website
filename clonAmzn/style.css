@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.mainNav{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid;
+    width: 100%;
+    height: 9%; 
+    padding: 15px;
+    background-color: #131921;
+}
+.logoName{
+    font-family:  Arial, sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  font-weight: 999;
+  line-height: 0px;
+  padding: 15px;
+  margin-left: -20px;
+  Color:rgb(255, 255, 255)
+}
+.mainDeliver{
+    margin-left: -30px;
+    Color:rgb(255, 255, 255)
+}
+.Deliver{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    font-style: normal;
+}
+.searchBar{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    font-style: normal;
+    margin-left: 40px;
+   
+}
+
+#somthing{
+    width: 45px;
+    height: 37px;
+    padding: 1px;
+    border-radius: 2px ;
+    margin-top: 1px;
+   background-color: #E6E6E6;
+}
+.placeSearch{
+   width: 750px;
+   height:37px ;
+   border: 2px solid ;
+   background-color: rgb(255, 255, 255);
+   padding: 5px;
+   font-size: bold;
+   margin-left: -53px;
+   margin-top: 1px;
+   
+}
+#gaian{
+  padding: 1px;
+  margin: 4px;
+}
+input{
+    background: transparent;
+    border: 0;
+    outline: 0px;
+    width: 300px;
+}
+.nothing{
+    width: 40px;
+    height: 37px;
+    padding: 1px;
+    border-radius: 2px ;
+    margin-top: 1px;
+    margin-left: -63px;
+    background-color: #F3A847;
+}
+.mainText{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    font-style: normal;
+    Color:rgb(255, 255, 255);
+  
+}
+#add{
+    background-color: #131921;
+    Color:rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 999;
+    border: none;
+}
+.return{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    font-style: normal;
+    Color:rgb(255, 255, 255)
+}
+.addCart{
+    margin: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    font-style: normal;
+    Color:rgb(255, 255, 255);
+    width: 30px;
+    height: 10px;
+}
+
+
+
+/* 
+<!-- nari navbar--> */
+
+
+
+.littleNav{
+    display: flex;
+    border: 2px solid;
+    background-color: #232F3E;
+}
+.hembrger {
+    display: flex;
+    Color:rgb(255, 255, 255);
+}
+.hembrger p{
+    margin: 15px;
+    Color:rgb(255, 255, 255);
+}
+
+
+/* hero image of amazong */
+
+.mainHeroImag{
+    margin-left: 80px;
+}
+
+.littleProduct{
+   display: flex;
+}
+.littleproduct1{
+    display: flex;
+}
+
+
+/* product list */
+
+.productList{
+    display: flex;
+    margin: 70px 100px;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(206, 201, 201);
+    width: 1380px;
+    height: 240px;
+}
+.perfectTime{
+    display: flex;
+     margin-left: 1px;
+     font-weight: 600;
+}
+
+.day{
+    margin: 5px;
+    border: 2px;
+    background: #606060;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 7px;
+}
+.hours{
+    margin: 5px;
+    border: 2px;
+    background: #606060;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 7px;
+}
+.min{
+    margin: 5px;
+    border: 2px;
+    background: #606060;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 7px;
+}
+.secon{
+    margin: 5px;
+    border: 2px;
+    background: #606060;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.imagelist{
+    margin-left: 35px;
+    width: 179px;
+    height: 240px;
+    border: 1px solid rgb(206, 201, 201);
+    padding: 20px;
+}
+.firstImage{
+    margin: 10px;
+    width: 179px;
+    height: 235px;
+}
+.imageText{
+    margin-left: 20px;
+    /* padding: 10px; */
+}
+#percenMarg{
+    margin: 10px;
+    padding: 5px;
+    border: 1px;
+    width: 50px;
+    border-radius: 20px;
+    background-color:#EB001B;
+}
+
+
+/* ProductListWithFour? */
+
+
+
+.ProductListWithFour{
+      margin-left: 90px;
+      /* margin-bottom: 60px; */
+      /* margin-left: 50px; */
+      
+       /* margin: 30px;
+    */
+      border: 1px solid rgb(206, 201, 201);
+      width: 90%;
+      height: 270px;
+}
+
+.allIMage{
+    /* display: block; */
+    display:flex;
+    /* display:row; */
+}
+.littlesProductList{
+    display: flex;
+    
+
+}
+.littleImage{
+     margin-left: 5px;
+    padding: 5px;
+    border: 1px solid rgb(206, 201, 201);
+    width: 140px;
+    display: inline-block;
+}
+/*  <!-- section two same image like top --> */
+#relft{
+    margin-left: -20%;
+    margin-top: 35px;
+}
